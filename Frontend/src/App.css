@@ -1,0 +1,61 @@
+/* Center container */
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+/* Card box */
+.card {
+  width: 300px;
+  padding: 15px;
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Product Image */
+.card-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Title */
+.card-title {
+  font-size: 22px;
+  margin-top: 10px;
+}
+
+/* Description */
+.card-description {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Price */
+.card-price {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Button */
+.buy-btn {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px 15px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.buy-btn:hover {
+  background: #333;
+}
